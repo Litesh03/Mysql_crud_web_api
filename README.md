@@ -29,13 +29,15 @@ This will store the given data into database
 
 data body:(parameters)
 
-```{
+```
+{
 	"date": "2020-12-15",
 	"id": "1232",
 	"item": "bike",
 	"name": "someone",
 	"price": 32000
-}```
+}
+```
 
 
 ### Update:
@@ -45,14 +47,16 @@ This will replace the row with given sr.no by given data
 
 data_body:(parameters)
 
-```{
+```
+{
     "date": "2020-12-15",
     "id": "1222",
     "item": "module",
     "name": "someoneelse",
     "price": 4200,
     "sr": "1"
-}```
+}
+```
 
 
 ### Delete:
@@ -62,9 +66,11 @@ This will delete the row with given sr.no
 
 data_body:(parameters)
 
-```{
+```
+{
 	"sr" : "1"
-}```
+}
+```
 
 ## License:
 
