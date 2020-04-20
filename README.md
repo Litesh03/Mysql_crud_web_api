@@ -24,7 +24,7 @@ Hit this api "/api/v1.0/get_data"
 
 ### Store:
 This will store the given data into database
-http://127.0.0.1:5000/api/v1.0/store_data
+"http://127.0.0.1:5000/api/v1.0/store_data"
 data body:(parameters)
 ```{
 	"date": "2020-12-15",
@@ -37,7 +37,7 @@ data body:(parameters)
 
 ### Update:
 This will replace the row with given sr.no by given data
-http://127.0.0.1:5000/api/v1.0/update_row
+"http://127.0.0.1:5000/api/v1.0/update_row"
 data_body:(parameters)
 ```{
     "date": "2020-12-15",
@@ -51,7 +51,7 @@ data_body:(parameters)
 
 ### Delete:
 This will delete the row with given sr.no
-http://127.0.0.1:5000/api/v1.0/delete_row
+"http://127.0.0.1:5000/api/v1.0/delete_row"
 data_body:(parameters)
 ```{
 	"sr" : "1"
